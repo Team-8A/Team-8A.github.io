@@ -46,7 +46,6 @@ body {
   padding: 19px;
 }
 
-
 .header-right {
   float: right;
 }
@@ -62,6 +61,54 @@ body {
     float: none;
   }
 }
+/* search */
+#search-mid{
+  padding: 6px;
+}
+.header .search-container {
+  float: left;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  color: white;
+  background-color: #141519;
+  border: none;
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #23252b;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #f47521;
+}
+
+.header .search-container button:hover {
+  background: #141519;
+}
+
+@media screen and (max-width: 600px) {
+  .header .search-container {
+    float: none;
+  }
+  .header a, .header input[type=text], .header .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    border: none;
+  }
+}
+/* search */
 /* Dropdown Button */
 .dropdown {
   float: left;
@@ -104,7 +151,6 @@ body {
   width: 16.6%;
   padding: 20px;
   background-color: #141519;
-  height: 200px;
   color:#dadada;
 }
 
@@ -231,43 +277,41 @@ body {
 .hovicon.effect-9.sub-a:hover i {
     color: #fff;
 }
-
-
+/* footer */
 .footer-container{
-    background-color: #000; 
-    background-image: linear-gradient(#000, #213843);
-    padding:2rem 0 4rem 0;
+  background-image: linear-gradient(#000, #213843);
+  padding: 10rem;
 }
 
 .footer {
-    width: 80%;
-    height: 40vh;
-    background-color: #000; 
-    background-image: linear-gradient(#000, #213843);
-    color:#dadada;
-    display: flex;
-    justify-self: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
+  color:#dadada;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .footer-heading {
-    display: flex;
-    flex-direction: column;
-    margin-right:4rem ;
+  display: flex;
+  flex-direction: column;
+  margin-right:4rem ;
 }
 
 .footer-heading h2 {
-    margin-bottom: 2rem;
-    color: white;
+  margin-bottom: 2rem;
+  color: white;
 }
 
 .footer-heading a {
-    color: #a0a0a0;
-    text-decoration: none;
-    margin-bottom:0.5rem ;
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-bottom:0.5rem ;
 }
 .footer-heading a:hover {
-    color:white;
-    transition:0.3s ease-out;
+  color:white;
+  transition:0.3s ease-out;
+}
+/* position-footer-at-bottom */
+div.footer{
+  width: 100%;
 }
