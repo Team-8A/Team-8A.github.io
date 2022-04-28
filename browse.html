@@ -1,15 +1,14 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title> Movies </title>
-    <link rel="stylesheet" href="main theme.css">
-  </head>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/main theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+    </head>
   <body>
-  <h1> Movies </h1>
     <style>
-     body{
-           background-color:black;
-           backround-repeat: no repeat;
-          }
     h1 {
             color: red;
        }
@@ -35,77 +34,154 @@
                   color: red;
                  }
    </style>
+   <div class="header">
+    <a href="index.html" class="logo">TEAM-8A</a>
+    <div class="dropdown">
+      <button class="dropbtn">Browse
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">  
+        <div class="row">
+          <div class="column">
+          </div>
+          <div class="column">
+            <div style="width:100%">
+              <div style="border-right:2px solid #23252b;"> 
+                <a href="browse.html">Browse All</a>
+                <a href="browse.html">Popular</a>
+                <a href="browse.html">New</a>
+                
+              </div>
+           </div>
+          </div>
+          <div class="column">
+            <h4 id="h4-padding">Genres</h4>
+            <a href="browse.html">Action</a>
+            <a href="browse.html">Adventure</a>
+            
+        </div>
+          <div class="column">
+            <h4 style="color:#141519"; id="h4-padding">Genres</h4>
+            <a href="browse.html">Music</a>
+            <a href="browse.html">comedy</a>
+            
+          </div>
+          <div class="column">
+            <h4 style="color:#141519"; id="h4-padding">Genres</h4>
+            <a href="browse.html">Sci-fi</a>
+            <a href="browse.html">Drama</a>
+            
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="header-right">
+      <div class="search-container" id="search-mid">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+      <a href="#my list" class="pad" id="mid">My List</a>
+      <a href="signin.html">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskE_K0tR332USgjzlAjZNS53Y84Nl9O1wMg&usqp=CAU" alt="Avatar" class="avatar hovicon effect-9 sub-a">
+      </a>
+    </div>
+  </div>
+  <h1 style="padding: 1.5rem;"> Movies </h1>
   <div class="gallery">
-  <a href="https://www.youtube.com/watch?v=mqqft2x_Aa4"> <img src="batman.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=mqqft2x_Aa4"> <img src="../photos/batman.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>Batman Action movie</b> </div>
   </div> 
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=EFYEni2gsK0"> <img src="wrath.jpg"  width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=EFYEni2gsK0"> <img src="../photos/wrath.jpg"  width="200" height="200"> </a>
   <div class="desc"><b>Wrath of man action movie</b> </div>
   </div>
   <div class="action">
-  <a href="https://www.youtube.com/watch?v=-ncFDuKdgNE"> <img src="papye.jpg"  width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=-ncFDuKdgNE"> <img src="../photos/papye.jpg"  width="200" height="200"> </a>
   <div class="desc"> <b>PaPye</b> </div>
   </div>
   <div class="gallery">
-  <a href="https://www.youtube.com/watch?v=x3HbbzHK5Mc"> <img src="harley.jpg"  description="The Movie Trailler" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=x3HbbzHK5Mc"> <img src="../photos/harley.jpg"  description="The Movie Trailler" width="200" height="200"> </a>
   <div class="desc"><b>Birds of prey</b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U"> <img src="peaky.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U"> <img src="../photos/peaky.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>Peaky blinders series</b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=C0BMx-qxsP4"> <img src="john.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=C0BMx-qxsP4"> <img src="../photos/john.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>John wick 2</b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=5PSNL1qE6VY"> <img src="Avatar.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=5PSNL1qE6VY"> <img src="../photos/Avatar.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>Avatar</b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=8g18jFHCLXk"> <img src="Dune.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=8g18jFHCLXk"> <img src="../photos/Dune.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>Dune</b>  </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=BIhNsAtPbPI">  <img src="notime.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=BIhNsAtPbPI">  <img src="../photos/notime.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> No Time To Die ! </b></div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY">  <img src="joker.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY">  <img src="../photos/joker.jpg" width="200" height="200"> </a>
   <div class="desc">  <b>JOKER</b>  </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY"> <img src="morbilus.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY"> <img src="../photos/morbilus.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> MORBILUS MOVIE </b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=beToTslH17s"> <img src="Scream.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=beToTslH17s"> <img src="../photos/Scream.jpg" width="200" height="200"> </a>
   <div class="desc"> <b>Scream Movie</b>  </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=_lZy_VOdTUA"> <img src="mission.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=_lZy_VOdTUA"> <img src="../photos/mission.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> MISSION IMPOSSIPLE VI </b> </div> 
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=naQr0uTrH_s">  <img src="pirate.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=naQr0uTrH_s">  <img src="../photos/pirate.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> PIRATE OF CARRIBIAN </b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw"> <img src="bella.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=e3Nl_TCQXuw"> <img src="../photos/bella.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> THE BEAUTY AND THE BEAST</b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=3UgJL23HxyU&t=51s"> <img src="outfit.jpg" width="200" height="200"> </a>
-  <div class+"desc"> <b> THE OUT FIT </b> </div>
+  <a href="https://www.youtube.com/watch?v=3UgJL23HxyU&t=51s"> <img src="../photos/outfit.jpg" width="200" height="200"> </a>
+  <div class="desc"> <b> THE OUT FIT </b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=L6P3nI6VnlY"> <img src="extraction2.jpg" width="200" heigth="200"> </a>
+  <a href="https://www.youtube.com/watch?v=L6P3nI6VnlY"> <img src="../photos/extraction2.jpg" width="200" heigth="200"> </a>
   <div class="desc"> <b> EXTRACTION </b> </div>
   </div>
   <div class="movie">
-  <a href="https://www.youtube.com/watch?v=8rvYrVTnSWw"> <img src="crank.jpg" width="200" height="200"> </a>
+  <a href="https://www.youtube.com/watch?v=8rvYrVTnSWw"> <img src="../photos/crank.jpg" width="200" height="200"> </a>
   <div class="desc"> <b> CRANK MOVIE </b> </div>
   </div>
-  /body>
+  <div class="footer-container footer">
+    <div class="footer-heading footer-1">
+      <h2>navigation</h2>
+      <a href="browse.html">Browse All</a>
+    </div>
+    <div class="footer-heading footer-2">
+      <h2>Connect With Us</h2>
+      <a href="https://www.youtube.com/"><i class='fab fa-youtube' style='font-size:16px'></i> Youtube</a>
+      <a href="https://www.facebook.com/"><i class='fab fa-facebook-f' style='font-size:16px'></i> Facebook</a>
+      <a href="https://twitter.com/"><i class='fab fa-twitter' style='font-size:16px'></i> Twitter</a>
+      <a href="https://www.instagram.com/"><i class='fab fa-instagram' style='font-size:16px'></i> Instagram</i></a>
+    </div>
+    <div class="footer-heading footer-3">
+      <h2>Account</h2>
+      <a href="#" >Watch list</a>
+      <a href="sign in.html" >My Account</a>
+      <a href="#" >Leave feedback</a>
+    </div>
+  </div>
+</body>
  <html>
