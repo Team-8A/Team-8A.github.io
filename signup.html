@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title> sign up page </title>
+    <link rel="stylesheet" href="../css/signup.css">
+     <script src="../js/js.js"></script>
+</head>
+<body>
+   <div class="content">
+    <form onsubmit ="return validateForm()">   
+       <div class="contanir contanir1">
+        <div>
+        <label class="user2"> Frist Name </label>  
+        <input type = "text" id = "fname" value = "" required placeholder="Enter Your Frist Name" class="first first1">   
+        <div> <span id = "blankMsg" style="color:red"> </span> </div>  
+       </div> 
+    <div>
+        <label class="user2"> Last Name </lable>  
+        <input type = "text" id = "lname" value = "" required placeholder="Enter Your Last Name" class="user user1" >   
+      <div>  <span id = "charMsg" style="color:red"> </span> </div>
+    </div>
+    <div>
+            <label for="email" class="email2">Email</label>
+             <input type="email" required placeholder="enter your Email " id="email" placeholder="Enter Your Email " class="email email1">
+    </div>
+        <div>
+        <label for="pswd1" class="pass2">password</label>   
+        <input type = "password" id = "pswd1" value = "" required placeholder="Enter Your password" class="pass pass1">   
+        <div> <span id = "message1" style="color:red"> </span> </div> 
+    </div>       
+    <div>
+        <label for="pswd2" class="pass2"> Confirm </label>  
+        <input type = "password" id = "pswd2" value = "" required placeholder="Confirm Your Password" class="confirm confirm1">  
+       <div> <span id = "message2" style="color:red"> </span> </div>
+    </div>
+        <div>
+           <label for="date" class="pass2">Birthday</label>
+            <input type="date" required id="date" class="pass pass1" style="font-size: 20 px;opacity: 0.7;" >
+        </div>  
+       <div>
+             <input type = "submit" value = "sign up" class="button">  
+      </div>  
+    </div>
+        </form>  
+        <a href="signin.html" style="font-size: 25px; color: aliceblue;" target="_blank" >sign in!</a>
+    </div>
+</body>
+</html>
