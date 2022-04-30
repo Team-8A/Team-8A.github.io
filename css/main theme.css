@@ -76,6 +76,7 @@ body {
   color: white;
   background-color: #141519;
   border: none;
+  outline: none;
 }
 
 .header .search-container button {
@@ -281,6 +282,16 @@ body {
 .footer-container{
   background-image: linear-gradient(#000, #213843);
   padding: 10rem;
+}
+
+.footer-container h2{
+    display: block;
+    font-size: 1.5em;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
 }
 
 .footer {
