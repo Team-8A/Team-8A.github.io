@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="../css/main theme.css">
   <link rel="stylesheet" href="../css/show slide.css">
   <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../package/css/swiper.min.css">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-  <link rel="stylesheet" href="../package/css/swiper.min.css">
 </head>
 
 <body>
@@ -62,13 +62,12 @@
     </div>
 
     <div class="header-right">
-      <div class="search-container" id="search-mid">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+      <div class="search-container"">
+          <a href="search.html" target="_blank" rel="noopener noreferrer">
+          <button><i class="fa fa-search"></i></button>
+          </a>
       </div>
-      <a href="#my list" class="pad" id="mid" target="_blank" rel="noopener noreferrer">My List</a>
+      <a href="#my list" class="pad" id="mid" target="_blank" rel="noopener noreferrer" style="font-size: 16px;">My List</a>
       <a href="signin.html" target="_blank" rel="noopener noreferrer">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskE_K0tR332USgjzlAjZNS53Y84Nl9O1wMg&usqp=CAU"
           alt="Avatar" class="avatar hovicon effect-9 sub-a">
@@ -626,18 +625,33 @@
 
   <!-- Initialize Swiper -->
   <script>
+    
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 6,
+      slidesPerView: 5,
       spaceBetween: 10,
       slidesPerGroup: 2,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      breakpoints: {
+        100: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 10,
+        },
+      }
     });
   </script>
   <!-- swiper -->
