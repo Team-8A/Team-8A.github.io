@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    margin: 0;
+    background: #060d17;
+    color: #d5d5d5;
+}
+body {
+    font-family: Lato,Lato-fallback,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: rgb(163, 163, 163);
+    background-color: #fff;
+}
+.max-width-padding{
+    padding: 100    ;
+    float: center;
+}
+.am-p14{
+    margin:auto;
+    padding: 30;
+}
