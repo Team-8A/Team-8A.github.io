@@ -35,11 +35,18 @@ body {
   -webkit-transition: color 2s;
     transition: color 0s;
     color:#f47521;
-    padding:18px;
+    padding:19px;
 }
 
 .header a.logo:hover{
     color:white;
+}
+.header .news{
+  padding:19px;
+}
+.header a.news:hover{
+  background-color: #141519;
+  color:white;
 }
 .header-right a.pad:hover{
   background-color: #141519;
@@ -129,6 +136,7 @@ body {
   background-color: inherit;
   font: inherit;
   margin: 0;
+  padding:22.5px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {

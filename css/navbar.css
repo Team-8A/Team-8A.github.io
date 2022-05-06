@@ -41,7 +41,6 @@ body {
   padding: 19px;
 }
 
-
 .header-right {
   float: right;
 }
@@ -69,7 +68,6 @@ body {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border: 1px solid #f47521; 
   color: white;
   background-color: #141519;
 }
@@ -84,7 +82,6 @@ body {
   border: none;
   cursor: pointer;
   color: #f47521;
-  border: 1px solid #f47521; 
 }
 
 .header .search-container button:hover {

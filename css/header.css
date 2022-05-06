@@ -52,3 +52,7 @@ hr.vl-1 {
     background-color: #f47521;
     border: 2px solid white;
   }
+  #no-grow a img{
+    max-width:249px;
+    max-height:94px;
+}

@@ -11,8 +11,8 @@
 /* **/
 
 :root{
-    --background: #111111;
-    --black: black;
+    /* --background: #111111; */
+    /* --black: black; */
     --white: white;
     --aqua: #d1d1d1;
     --square: #009ec0;
@@ -162,7 +162,7 @@ video{
       background-color: var(--background);
   }
 
-  img{
+  .image img{
       width: 250px;
       height: 340px;
       position: relative;
@@ -185,7 +185,7 @@ video{
       color: var(--square);
   }
 
-  p, h2, .info div{
+  .info p, h2, .info div{
 
     background-color: var(--background);
   }

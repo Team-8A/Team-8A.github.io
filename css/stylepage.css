@@ -20,7 +20,6 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    margin-bottom: 600px;
 }
 
 .wl .logo {
@@ -73,4 +72,110 @@ nav {
 
 .cta button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+.container {
+    background-color: black;
+    min-height: calc(100vh - 123px);
+
+
+}
+
+.content-container {
+    margin-left:100px;
+}
+
+.featured-content {
+    height: 50vh
+}
+
+.featured-title {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.movie-list-container {
+    padding: 20px;
+}
+
+.movie-list-wrapper {
+    position: relative;
+}
+
+.main-list {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.movie-list-item {
+    margin-right: 20px;
+    position: relative;
+}
+
+.movie-list-item:hover .movie-list-item-img {
+    transform: scale(1.2);
+    margin: 0 20px;
+    opacity: 0.5;
+}
+
+.movie-list-item:hover .movie-list-item-tilte,
+.movie-list-item:hover .movie-list-item-desc,
+.movie-list-item:hover .movie-list-item-button {
+    opacity: 1;
+}
+
+.movie-list-item-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.2s ease;
+}
+
+.movie-list-item-tilte {
+    background-color: #54405c;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.movie-list-item-desc {
+    background-color: #54405c;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 230px;
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.movie-list-item-button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    transition: 1s all ease;
+}
+
+.arrow {
+    font-size: 70px;
+    position: absolute;
+    top: 110px;
+    color: #978181;
+    right: 0;
+    opacity: 0.5;
+    cursor: pointer;
 }
