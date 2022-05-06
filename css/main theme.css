@@ -55,6 +55,9 @@ body {
 #mid{
   padding: 19px;
 }
+#news{
+  padding: 21px;
+}
 
 .header-right {
   float: right;
