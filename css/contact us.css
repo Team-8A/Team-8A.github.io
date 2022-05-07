@@ -1,43 +1,103 @@
-{
-    margin: 0;
-    padding: 0;
-    Box-sizing: border-box;
-    font-family:  'poppins' , sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-.q{
-    position: relative;
+.section{
+    width: 100%;
     min-height: 100vh;
-    padding: 50px 100ps;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("../photos/contact us.jpeg");
-    background-size: cover ;
+    background-color: rgb(194, 192, 192);
 }
-.q .w{
-    max-width: 800px;
-    text-align: center;
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
 }
-.q .w h2{
-    font-size: 36ps;
-    font-weight: 500;
-    color: red;
+.content-section{
+    float: left;
+    width: 55%;
 }
-.q .w p{
-    font-weight: 500;
-    color: rgb(179, 13, 221);
+.image-section{
+    float: right;
+    width: 44%;
 }
-.e{
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content p{
+    margin-top: 20px;
+    color: #375a1f;
+    font-family: sans-serif;
+    line-height: 1.5;
+} 
+.content-section .content .button{
     margin-top: 30px;
 }
-.e .r
-{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color: #3d3d3d;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
 }

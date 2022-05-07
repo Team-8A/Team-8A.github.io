@@ -1,0 +1,43 @@
+{
+    margin: 0;
+    padding: 0;
+    Box-sizing: border-box;
+    font-family:  'poppins' , sans-serif;
+}
+.q{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100ps;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../photos/contact us.jpeg");
+    background-size: cover ;
+}
+.q .w{
+    max-width: 800px;
+    text-align: center;
+}
+.q .w h2{
+    font-size: 36ps;
+    font-weight: 500;
+    color: red;
+}
+.q .w p{
+    font-weight: 500;
+    color: rgb(179, 13, 221);
+}
+.e{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+.e .r
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
