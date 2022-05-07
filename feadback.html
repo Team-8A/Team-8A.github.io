@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta .charest="UTF-8"./>
-        <title>feedback</title>
-        <link rel="styllesheet" href="css/css projecr ">
-        <style>
-            body{
-                background-color: black;
-                color: orange;
-            }
-        </style>
+        <title>Feadback Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/feadback.css">
     </head>
     <body>
-        <h1> <b>submit comments</b> </h1>
-        <p>Hallo</p>
-        <div>
-            <p id="my-p" style="color: rgb(199, 80, 80);">
-                **Note**<br>This form is for only. Support issues should intead head over to <a herf=""> the name of page</a>
-            </p>
-        </div>
-        <form>
-            <div>
-                <label>Username</label><br>
-                <input type="text" required placeholder="Username">
+        <div class="containeer">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="text-center mt-5 font-weight-bold">feedback</h1>
+                    <hr class="bg-white">
+                    <h6 class="text-center">Please write your feedback below:</h6>
+                    <h3 class="mt-4">How do you rate your overall experlence?</h3>
+                    <form>
+                        <label class="radoi-inline"><input type="radio" name="experlence" value="bad">Bad</label>
+                        <label class="radoi-inline"><input type="radio" name="experlence" value="bad">Average</label>
+                        <label class="radoi-inline"><input type="radio" name="experlence" value="bad">Good</label>
+
+
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <label class="col-md-4">Full Name*<br>
+                            <input type="text" id="text" required="" placeholder="Abdul Rafay"></label>
+                                <br>
+                            <label class="col-md-4">Email*<br>
+                                <input type="text" id="text" required="" placeholder="liverpool@gmail.com"></label>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <label class="col-md-4">Age*<br>
+                            <input type="number" id="text" required="" placeholder="15"></label>
+                                <br>
+                            <label class="col-md-4">Phone*<br>
+                                <input type="number" id="text" required="" placeholder="+01234567891"></label>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <label class="col-md-8">Message*<br>
+                            <textarea id="message" required="" placeholder="Write your message here" cols="48" rows="5"></textarea></label>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <button class="btn btn-ptimary" style="width: 53.5%; position: absolute; margin-left: 15%;">submit</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
-             <br>
-             <div>
-                <label>Your E-mail</label><br>
-                 <input type="email"required placeholder="Write A Valid Email" value="@gmail.com">
-             </div>
-             <br>
-             <div>
-                <label>Your password</label><br>
-                <input type="password"required placeholder="Write A password That You Can Remember" minlength="8">
-             </div>
-             <br>
-             <div>
-                <label>Subject</label><br>
-                <input type="text"required placeholder="Subject">
-             </div>
-             <br>
-             <div>
-                <label>Age</label>
-                <input type="number" name="number" min="10" max="89" step="1">
-             </div>
-             <br>
-             <div>
-                <label>Discription</label><br>
-                <input type="text"required>
-             </div>
-             <br>
-             <div>
-             <br>
-             <input type="reset">
-             <input type="submit">
-        </form>
+        </div>
     </body>
 </html>
