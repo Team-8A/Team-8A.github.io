@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <title> sign up page </title>
     <link rel="stylesheet" href="../css/signup.css">
-     <script src="../js/js.js"></script>
+    <script src="js.js"></script>
 </head>
 <body>
    <div class="content">
-    <form onsubmit ="return validateForm()">   
+    <form action=" https://team-8a.github.io/" >   
        <div class="contanir contanir1">
         <div>
-        <label class="user2"> Frist Name </label>  
+        <label class="user2" for="fname"> Your Name </label>  
         <input type = "text" id = "fname" value = "" required placeholder="Enter Your Frist Name" class="first first1">   
         <div> <span id = "blankMsg" style="color:red"> </span> </div>  
        </div> 
     <div>
-        <label class="user2"> Last Name </lable>  
-        <input type = "text" id = "lname" value = "" required placeholder="Enter Your Last Name" class="user user1" >   
+        <label class="user2" for="lname"> User Name </lable>  
+        <input type = "text" id = "lname" value = "" required placeholder="Enter Your User Name" class="user user1" >   
       <div>  <span id = "charMsg" style="color:red"> </span> </div>
     </div>
     <div>
@@ -31,7 +31,7 @@
     </div>       
     <div>
         <label for="pswd2" class="pass2"> Confirm </label>  
-        <input type = "password" id = "pswd2" value = "" required placeholder="Confirm Your Password" class="confirm confirm1">  
+        <input type = "password" id = "pswd2"   required placeholder="Confirm Your Password" class="confirm confirm1">  
        <div> <span id = "message2" style="color:red"> </span> </div>
     </div>
         <div>
@@ -39,11 +39,12 @@
             <input type="date" required id="date" class="pass pass1" style="font-size: 20 px;opacity: 0.7;" >
         </div>  
        <div>
-             <input type = "submit" value = "sign up" class="button">  
+           <input type = "submit" value = "sign up" class="button" onclick="store()" >  
       </div>  
     </div>
         </form>  
-        <a href="signin.html" style="font-size: 25px; color: aliceblue;" target="_blank" >sign in!</a>
+        <a href="file:///C:/Users/Ahmed%20Mounir/Desktop/project/sign%20in/signin.html" style="font-size: 25px; color: aliceblue;" target="_blank" >sign in!</a>
     </div>
+    
 </body>
 </html>

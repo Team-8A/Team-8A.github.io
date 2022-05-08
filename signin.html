@@ -4,31 +4,28 @@
    <meta charset="UTF-8">
    <title> sign in page </title>
    <link rel="stylesheet" href="../css/sign.css">
+   <script src="../js/signin.js"></script>
   </head>
    <body>
     <div class="content" >
     <div><h1 class="head1">sign in </h1> </div>
-      <form action="" method="get" > 
+    <form   action=" https://team-8a.github.io/"  > 
       <div class="contanir contanir1">
       <div>
-           <label for="user" class="user2">username</label>
-           <input id="user" type="email" required placeholder="Enter Your Email " name="user" class="user  user1" ><br>
+           <label for="email" class="user2">username</label>
+           <input id="email" type="text" required placeholder="Enter Your User name " name="name" class="user  user1" ><br>
          </div>
-         <div >
-          <label for="pass" class="pass2" > password</label>
-           <input class="pass pass1 " id="pass" type="password" required placeholder="Enter Your password" name="Password"><br>
-         </div>
-         <div class="remember">
-          <input type="checkbox">
-          <label for="">remember me </label><br>
-         </div>
-         <div class="sign">
-         <button class="button" value="1" name="log in" type="submit"> sign in </button>
+         <div>
+          <label for="pass" class="pass2">password</label>   
+          <input type = "password" id = "pass" value = "" required placeholder="Enter Your password"  name="password" class="pass pass1">   
+      </div> 
+       <div class="sign">
+               <input class="button" onclick="check()" value="login" name="log in" type="submit" > 
       </div>
     </div>  
-    </form> 
+    </form > 
     <p style="color: aliceblue;">_______________________OR_________________________</p>
-    <p style ="font-size:20px;color: aliceblue;">you need an account! <a style="font-weight: bold;color: #f47521;" href="signup.html" target="_blank ">sign up</a> </p>
+    <p style ="font-size:20px;color: aliceblue;">you need an account! <a style="font-weight: bold;" href="file:///C:/Users/Ahmed%20Mounir/Desktop/project/signup/signup.html" target="_blank ">sign up</a> </p>
      </div> 
     </div>
    </body>
