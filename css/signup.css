@@ -21,19 +21,15 @@
     padding: 0 16px;
     width: 332px;
     color: aliceblue;
-    margin: 0px 19px 0px 126px;
+    margin: 21px 19px 0px 126px;
 }
 .pass,.user
 {
     background-color: rgb(229, 217, 217);
     border: none;
     border-radius: 6px;
-    font-size: 21px;
     line-height: 48px;
-    padding: 0 0px;
-    width: 268px;
     color: rgb(0, 0, 0);
-    margin: 6px;
 }
 
 .pass1,.user1
@@ -91,21 +87,10 @@ body
     font-size: 21px;
     line-height: 48px;
     padding: 0 0px;
-    width: 234px;
-    color: rgb(0, 0, 0);
-    margin: 6px
-}
-.email
-{
-    background-color: rgb(229, 217, 217);
-    border: none;
-    border-radius: 6px;
-    font-size: 21px;
-    line-height: 48px;
-    padding:1px 21px 2px 25px;
     width: 284px;
     color: rgb(0, 0, 0);
     margin: -15px 8px 6px 37px;
+    padding:1px 21px 2px 25px;
 }
 .email2
 {
@@ -118,7 +103,6 @@ body
     background-color: rgb(229, 217, 217);
     border: none;
     border-radius: 6px;
-
     line-height: 48px;
     color: rgb(0, 0, 0);
     

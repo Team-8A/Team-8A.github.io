@@ -27,10 +27,7 @@
     background-color: rgb(229, 217, 217);
     border: none;
     border-radius: 6px;
-    font-size: 21px;
     line-height: 48px;
-    padding: 0 0px;
-    width: 268px;
     color: rgb(0, 0, 0);
     margin: 6px
 }
@@ -56,7 +53,6 @@
     padding: 20px 0 28px;
     width: 456px;
     display: grid;
-    grid-template-columns: ;
 }
 .pass2,.user2
 {
